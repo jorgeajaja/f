@@ -1,0 +1,62 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+div#general{
+	margin-top: 50px;
+	margin: auto;
+	width: 900px;
+	height: 800px;
+	padding-top: 2.5rem;
+	
+}
+
+.container{
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+.header{
+	background: #0277de;
+	color: white;
+	padding: 2rem 0;
+
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+}
+
+.header a{
+	color: white;
+	text-decoration: none;
+}
+
+.logo-nav-container{
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.logo{
+  
+  letter-spacing: 15px;
+  font-size: 1.2em;
+}
+
+.pre{
+	height: 40px;
+	width: 20px;
+}
+
+.footer{
+	background: #a4a4a4;
+	padding: 4rem 0;
+	text-align: center;
+}

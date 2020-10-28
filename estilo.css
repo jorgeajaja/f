@@ -1,0 +1,110 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+div#in{
+	margin-top: 100px;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	padding-top: 0.5rem;
+}
+
+div#general{
+	margin-top: 30px;
+	margin: auto;
+	width: 800px;
+	height: 900px;
+	padding-top: 1.5rem;
+	flex-wrap: wrap;
+	color: white
+}
+
+div#gen{
+	margin-top: 30px;
+	margin: auto;
+	width: 800px;
+	height: 900px;
+	padding-top: 1.5rem;
+	flex-wrap: wrap;
+	color: white
+}
+
+.container{
+	width: 80%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.header{
+	background: #0277de;
+	color: white;
+	padding: 2rem 0;
+
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+}
+
+.header a{
+	color: white;
+	text-decoration: none;
+}
+
+.logo-nav-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.logo{
+  width:10px; 
+  letter-spacing: 10px;
+  font-size: 1.2em;
+}
+
+.pre{
+	height: 70px;
+}
+
+.logo1{
+  width:100px; 
+  letter-spacing: 10px;
+  font-size: 1.2em;
+}
+
+.pre1{
+	height: 70px;
+}
+
+.boton{
+	margin-top: 50px;
+	margin: auto;
+	width: 30%;
+	height: 50px;
+	align-items: center;
+	background-position: center;
+	background-color: #b6b6b6;
+}
+
+.boton a{
+	text-decoration: none;
+	
+	color: white;
+}
+
+.footer{
+	width: 100%;
+	background: #dedede;
+	padding: 4rem 0;
+	text-align: center;
+	padding-top: 2.5rem;
+}
+}
+
+@media only screen and (max-width: 400px){
+
+}
